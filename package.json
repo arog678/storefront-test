@@ -1,7 +1,7 @@
 {
   "name": "storefront-test",
   "version": "0.1.0",
-  "homepage": "https://arog678.github.io/moustach",
+  "homepage": "https://arog678.github.io/storefront-test",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
