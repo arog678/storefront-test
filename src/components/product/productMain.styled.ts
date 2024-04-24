@@ -10,10 +10,8 @@ export const ProductContainer = styled.div`
 
     @media (min-width: 768px) {
         grid-template-columns: 50% 50%;
-        max-width: 1000px;
+        max-width: min(1100px, 90vw);
         margin: 30px auto;
-        gap: 100px;
-        justify-content: 100px;
     }
 `;
 
