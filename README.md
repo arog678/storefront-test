@@ -17,6 +17,12 @@ Responsive web design. The site needs to fit the different sizes of the user’s
 - A customer can view a mini-cart of their selections
 - Product information will be consumed from the Product API: HTTP GET https://3sb655pz3a.execute-api.ap-southeast-2.amazonaws.com/live/product
 
+# Packages and Modules
+- styled-components
+- react-icons
+- vi-test
+- react-toastify
+
 # Beyond Scope
 - Localization for pricing
 - Meta tag + SEO code
