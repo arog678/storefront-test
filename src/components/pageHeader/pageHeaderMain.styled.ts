@@ -99,12 +99,16 @@ export const TopRow = styled.div`
     display: flex;
     padding-left: ${LEFT_MARGIN}px;
     width: 100%;
+    // max-width: ${TOP_ROW_WIDTH}px;
+    // width: calc(100%  - ${RIGHT_MARGIN}px);
 
     max-width: ${RIGHT_MARGIN + CART_ITEM_WIDTH}px;
+
 
     @media (min-width: 768px) {
         max-width: ${TOP_ROW_WIDTH}px;
         width: calc(100%  - ${RIGHT_MARGIN}px);
+    
     }
 
     align-self: flex-end;
