@@ -51,9 +51,8 @@ export const CartIcon = styled.div<{
     height: ${HEADER_STRIP_HEIGHT}px;
     justify-content: center;
     align-items: center;
-    bottom: -1px;
     position: relative;
-cursor: pointer;
+    cursor: pointer;
 
     background: ${p => p.$cartOpen ? 'white' : 'none'};
     color: ${p => !p.$cartOpen ? FONT_COLOR_TWO : FONT_COLOR_ONE};
@@ -99,11 +98,7 @@ export const TopRow = styled.div`
     display: flex;
     padding-left: ${LEFT_MARGIN}px;
     width: 100%;
-    // max-width: ${TOP_ROW_WIDTH}px;
-    // width: calc(100%  - ${RIGHT_MARGIN}px);
-
     max-width: ${RIGHT_MARGIN + CART_ITEM_WIDTH}px;
-
 
     @media (min-width: 768px) {
         max-width: ${TOP_ROW_WIDTH}px;
